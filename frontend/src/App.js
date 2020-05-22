@@ -13,7 +13,7 @@ class App extends React.Component {
     }
 
     this.sse = null;
-    this.apiBaseUri = "http://" + document.location.hostname + ":3030";
+    this.apiBaseUri = "http://" + document.location.hostname + ":3032";
   }
 
   componentDidMount() {

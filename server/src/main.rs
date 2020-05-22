@@ -52,7 +52,7 @@ async fn main() {
 
     let routes = chat_recv.or(chat_send);
 
-    warp::serve(routes).run(([127, 0, 0, 1], 3030)).await;
+    warp::serve(routes).run(([127, 0, 0, 1], 3032)).await;
 }
 
 /// Our global unique user id counter.
